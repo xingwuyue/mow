@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "13th Gen Intel(R) Core(TM) i5-13400F",
+        "version": "Windows 11 Pro"
+    },
+    "sceneListMap": {
+        "1248cd9a-17a5-4d76-9699-a1593ae4739b": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\Game.scene"
+    },
+    "deviceMd5": "6431e2b45a7da48216d504435c6bc8fc"
+}

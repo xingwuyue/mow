@@ -1,0 +1,315 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs": {
+      "time": 1741239721697.9895,
+      "uuid": "e8e1da4f-1a94-42eb-abd7-5647f7195f82"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts": {
+      "time": 1741242675443.5906,
+      "uuid": "5a98cb44-ea9e-400f-8dd6-13e1bb0c2c3f"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture": {
+      "time": 1741239614874.3672,
+      "uuid": "c331a9a9-8230-4946-be60-a3d7c1b2f8a4"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\bullet": {
+      "time": 1741081734632.0894,
+      "uuid": "2eea78f5-9b59-4255-bcb1-b0715f043ff1"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\enemy": {
+      "time": 1741082965836.3345,
+      "uuid": "bdd055ef-aa03-457f-93da-ceadabba0a32"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map": {
+      "time": 1741081368962.2805,
+      "uuid": "989da46c-fa87-40c1-91f7-29356e7d408d"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player": {
+      "time": 1741080758190.5845,
+      "uuid": "04482c5c-99b9-445d-8aa5-00d7d03505e4"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\Bullet.ts": {
+      "time": 1741242671181.3037,
+      "uuid": "00d478e8-269c-4a06-98d5-cee10837e776"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\CameraController.ts": {
+      "time": 1741168881734.781,
+      "uuid": "ddd1a927-df42-46b0-84b6-44745e70878a"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\Enemy.ts": {
+      "time": 1741244773406.3496,
+      "uuid": "8c1dbcc8-454b-40d7-863a-2d7bc4b3041f"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\GameManager.ts": {
+      "time": 1741243697422.6814,
+      "uuid": "124a34ef-2660-4a4b-b512-34e7f18b9945"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\PlayerController.ts": {
+      "time": 1741244209432.7808,
+      "uuid": "86cb6101-4e83-4464-8c82-70518bb57477"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs.meta": {
+      "time": 1741080250656.919
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts.meta": {
+      "time": 1741080142453.8633
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture.meta": {
+      "time": 1741080640397.3374
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\bullet.meta": {
+      "time": 1741081712789.0542
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\enemy.meta": {
+      "time": 1741082959000.9717
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map.meta": {
+      "time": 1741080660877.9346
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player.meta": {
+      "time": 1741080646290.3208
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\Bullet.ts.meta": {
+      "time": 1741147544303.9204
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\CameraController.ts.meta": {
+      "time": 1741160252179.822
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\Enemy.ts.meta": {
+      "time": 1741147596519.6516
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\GameManager.ts.meta": {
+      "time": 1741147647914.3577
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\PlayerController.ts.meta": {
+      "time": 1741080151637.3274
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\Game.scene": {
+      "time": 1741244765507.0117,
+      "uuid": "1248cd9a-17a5-4d76-9699-a1593ae4739b"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\Bullet.prefab": {
+      "time": 1741242753160.9258,
+      "uuid": "c70a256d-1ce6-4903-8f55-b65244530c62"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\Enemy01.prefab": {
+      "time": 1741244845939.9314,
+      "uuid": "96c324d8-5d9c-4b8c-a462-38906b8a1372"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\Enemy02.prefab": {
+      "time": 1741244550869.8354,
+      "uuid": "9a74c54e-b484-4b26-a4b0-dc0e2f8e17db"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\bullet\\bulletList.plist": {
+      "time": 1577847958244.5793,
+      "uuid": "e4124194-ae44-4b0c-9892-7c41a13319a2"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\bullet\\bulletList.png": {
+      "time": 1577847958245.5818,
+      "uuid": "3dbd2119-31f3-4db5-849d-03626ba3f348"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\enemy\\monList.plist": {
+      "time": 1577847957110.562,
+      "uuid": "22dbf08c-b9a3-46aa-8d9c-44eabc9cddc9"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\enemy\\monList.png": {
+      "time": 1577847957112.5674,
+      "uuid": "cd7f28b6-e675-4f78-a649-7cf36bacd577"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_01.jpg": {
+      "time": 1577847958462.1584,
+      "uuid": "e06d8208-d156-45ec-ad66-3b0f33981b99"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_02.jpg": {
+      "time": 1577847958464.164,
+      "uuid": "8dfea73d-7916-45f6-bf60-793e44fe03b8"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_03.jpg": {
+      "time": 1577847958467.1716,
+      "uuid": "e11ba455-e4e6-4184-a9c0-292f4c53eb41"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_04.jpg": {
+      "time": 1577847958468.1743,
+      "uuid": "a12dc9c9-9463-4ac0-a8d7-3de852f1b880"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_05.jpg": {
+      "time": 1577847958469.1772,
+      "uuid": "2b43e07b-6cf7-48c8-9f19-8854b50e1300"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_06.jpg": {
+      "time": 1577847958471.1824,
+      "uuid": "0142ed12-0798-4674-bf45-bad1e14a6f33"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_07.jpg": {
+      "time": 1577847958472.1848,
+      "uuid": "fdeef2ae-4ab6-41d5-828e-5eab609ed30b"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_08.jpg": {
+      "time": 1577847958474.1902,
+      "uuid": "1b2aa998-3030-479a-8872-a30fe1ade310"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_09.jpg": {
+      "time": 1577847958475.1926,
+      "uuid": "d46b30ed-d67b-4e74-bf56-70901025d263"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\attackcircle.png": {
+      "time": 1577847958437.0916,
+      "uuid": "8e315a10-3555-4c09-b7f9-3dc7a401905f"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\goods.plist": {
+      "time": 1577847958381.945,
+      "uuid": "6de61e1e-1e28-4ed8-8513-a3ce9e5324e5"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\goods.png": {
+      "time": 1577847958383.9507,
+      "uuid": "8bd049f6-2de0-4e49-8df0-923922682d5f"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\player.plist": {
+      "time": 1577847958438.094,
+      "uuid": "bfe9ce55-a81f-4775-a326-a84df2feb0cb"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\player.png": {
+      "time": 1577847958439.0967,
+      "uuid": "851efedc-7d9d-4664-ade5-6ba09535c20d"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\Game.scene.meta": {
+      "time": 1741080094133.1848
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\Enemy01.prefab.meta": {
+      "time": 1741159184862.3481
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\Enemy02.prefab.meta": {
+      "time": 1741159187230.8757
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\Bullet.prefab.meta": {
+      "time": 1741158150763.4644
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\bullet\\bulletList.png.meta": {
+      "time": 1741081734675.0889
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\enemy\\monList.png.meta": {
+      "time": 1741082965952.9026
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_01.jpg.meta": {
+      "time": 1741080716635.81
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_02.jpg.meta": {
+      "time": 1741080716498.0525
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_03.jpg.meta": {
+      "time": 1741080716588.8086
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_04.jpg.meta": {
+      "time": 1741080716534.0518
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_05.jpg.meta": {
+      "time": 1741080716463.0486
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\bullet\\bulletList.plist.meta": {
+      "time": 1741081734762.089
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_06.jpg.meta": {
+      "time": 1741080716634.8096
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_07.jpg.meta": {
+      "time": 1741081368997.2815
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\attackcircle.png.meta": {
+      "time": 1741080679884.6145
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\goods.plist.meta": {
+      "time": 1741080758267.5886
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_09.jpg.meta": {
+      "time": 1741080716587.8088
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\map\\bg_08.jpg.meta": {
+      "time": 1741080716633.8093
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\goods.png.meta": {
+      "time": 1741080758226.584
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\player.png.meta": {
+      "time": 1741080694062.9758
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\player.plist.meta": {
+      "time": 1741080694043.976
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\enemy\\monList.plist.meta": {
+      "time": 1741082966068.9045
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect.meta": {
+      "time": 1741239614874.3672
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect": {
+      "time": 1741239684019.5664,
+      "uuid": "c56783f7-6005-4650-bd30-4dddb4928b59"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect\\hitEffect.plist.meta": {
+      "time": 1741239684064.5364
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect\\hitEffect.png.meta": {
+      "time": 1741239684117.5205
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect\\hitEffect.plist": {
+      "time": 1577847958389.9663,
+      "uuid": "5488b11e-c17c-4980-977b-9290ca9ec685"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect\\hitEffect.png": {
+      "time": 1577847958390.969,
+      "uuid": "6f50da9d-d6f4-426d-bff9-8a731e2e809a"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\hiteffect01.prefab.meta": {
+      "time": 1741239721701.9995
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\hiteffect01.prefab": {
+      "time": 1741243583541.9692,
+      "uuid": "1b1d0214-0b65-4223-9c76-d4700e9bf67f"
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\HitEffect.ts.meta": {
+      "time": 1741242675445.5913
+    },
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\HitEffect.ts": {
+      "time": 1741242649906.5615,
+      "uuid": "31531f3e-7b6c-4810-bdd6-0a885efbe369"
+    }
+  },
+  "missing": {
+    "9e0f3c69-c019-4b4a-9f24-27b0a45bad2f": {
+      "path": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\GridManager.ts",
+      "time": 1741169569376.2463,
+      "removeTime": 1741170437532
+    },
+    "383e8af0-3c0a-4a7b-9d4a-efb2688c3e74": {
+      "path": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\ObjectPool.ts",
+      "time": 1741165824144.1638,
+      "removeTime": 1741170437532
+    },
+    "ac818d35-a474-4ce5-ad37-1e3be7045fff": {
+      "path": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\ORCAManager.ts",
+      "time": 1741163180304.5254,
+      "removeTime": 1741170437533
+    },
+    "9231a25b-5552-4ace-bd0f-e442079056d8": {
+      "path": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\scripts\\SpawnManager.ts",
+      "time": 1741170360752.7268,
+      "removeTime": 1741170437533
+    },
+    "51ce7b52-ff5f-4fbb-82b7-7b23c4ef276d": {
+      "path": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\hitEffect.plist",
+      "time": 1577847958389.9663,
+      "removeTime": 1741239665979
+    },
+    "f6433a34-f939-4371-b25a-0ca33e45a9c4": {
+      "path": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect\\hitEffect.png",
+      "time": 1577847958390.969,
+      "removeTime": 1741239677863
+    },
+    "1b1d0214-0b65-4223-9c76-d4700e9bf67f": {
+      "path": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\prefabs\\hiteffect.prefab",
+      "time": 1741239718028.4685,
+      "removeTime": 1741239721699
+    }
+  }
+}

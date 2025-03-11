@@ -1,0 +1,34 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "player",
+    "spriteFrames": [
+      "cir_battle_black",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@8779a",
+      "cir_battle_yellow",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@0494c",
+      "circletarget",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@5d312",
+      "foot",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@d7fc4",
+      "footMask",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@042bf",
+      "img_body",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@72036",
+      "img_head",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@bf26b",
+      "role_battle_bg",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@3d6e4",
+      "role_battle_dir",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@c70b9",
+      "role_battle_green",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@a9e93",
+      "rolebattlebg1",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@9eaac",
+      "rolebattlebg2",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@28438",
+      "wudi",
+      "bfe9ce55-a81f-4775-a326-a84df2feb0cb@3114a"
+    ]
+  }
+}

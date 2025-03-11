@@ -1,0 +1,124 @@
+{
+  "imports": {
+    "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
+    "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
+    "file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts": "./chunks/5a/5a36807590569d709e72009be904d8f498c07d67.js",
+    "file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts": "./chunks/09/09bc76f0f93ac26e01f2a164e6d2386d641dfe36.js",
+    "file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": "./chunks/69/69a9d1c5f2a58bb6d179921f893b5b188c96e633.js",
+    "file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "./chunks/83/83df77a30c9dafc0719b65d7b9bb52bf8d01d888.js",
+    "file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "./chunks/1c/1c25096627d61eb89453f096dc1ce631b9c34a0b.js",
+    "file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/44/4485e4c6687e8d8bfd65f1e88fbd453e41b14c1a.js",
+    "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts": "./chunks/b4/b4631aa424650f2c18a9c42143098807457ae514.js",
+    "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts": "./chunks/89/898dc10836e8c4d876495d9a02da28fa778c447b.js",
+    "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts": "./chunks/65/65afc9f92a92678e68467d2acf62ac580bc4e508.js",
+    "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts": "./chunks/29/298fb58f15c0c62e5ae8feef2d1cc8c91b4bd98f.js",
+    "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts": "./chunks/84/8404d59074a47f1511ab0095aeff5f29c769f60b.js",
+    "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts": "./chunks/c9/c9c114aa444cd6ba99598a906db478e6771f0fcd.js"
+  },
+  "scopes": {
+    "./chunks/c9/c9c114aa444cd6ba99598a906db478e6771f0fcd.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/b4/b4631aa424650f2c18a9c42143098807457ae514.js",
+      "__unresolved_2": "./chunks/65/65afc9f92a92678e68467d2acf62ac580bc4e508.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
+      "__unresolved_0": "cce:/internal/x/cc-fu/base",
+      "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
+      "__unresolved_10": "cce:/internal/x/cc-fu/ui",
+      "__unresolved_11": "cce:/internal/x/cc-fu/particle",
+      "__unresolved_12": "cce:/internal/x/cc-fu/particle-2d",
+      "__unresolved_13": "cce:/internal/x/cc-fu/physics-framework",
+      "__unresolved_14": "cce:/internal/x/cc-fu/physics-2d-framework",
+      "__unresolved_15": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm",
+      "__unresolved_16": "cce:/internal/x/cc-fu/intersection-2d",
+      "__unresolved_17": "cce:/internal/x/cc-fu/primitive",
+      "__unresolved_18": "cce:/internal/x/cc-fu/profiler",
+      "__unresolved_19": "cce:/internal/x/cc-fu/geometry-renderer",
+      "__unresolved_2": "cce:/internal/x/cc-fu/gfx-webgl2",
+      "__unresolved_20": "cce:/internal/x/cc-fu/audio",
+      "__unresolved_21": "cce:/internal/x/cc-fu/video",
+      "__unresolved_22": "cce:/internal/x/cc-fu/xr",
+      "__unresolved_23": "cce:/internal/x/cc-fu/light-probe",
+      "__unresolved_24": "cce:/internal/x/cc-fu/terrain",
+      "__unresolved_25": "cce:/internal/x/cc-fu/webview",
+      "__unresolved_26": "cce:/internal/x/cc-fu/tween",
+      "__unresolved_27": "cce:/internal/x/cc-fu/tiled-map",
+      "__unresolved_28": "cce:/internal/x/cc-fu/vendor-google",
+      "__unresolved_29": "cce:/internal/x/cc-fu/spine",
+      "__unresolved_3": "cce:/internal/x/cc-fu/gfx-empty",
+      "__unresolved_30": "cce:/internal/x/cc-fu/dragon-bones",
+      "__unresolved_31": "cce:/internal/x/cc-fu/custom-pipeline",
+      "__unresolved_32": "cce:/internal/x/cc-fu/custom-pipeline-post-process",
+      "__unresolved_33": "cce:/internal/x/cc-fu/legacy-pipeline",
+      "__unresolved_4": "cce:/internal/x/cc-fu/gfx-webgpu",
+      "__unresolved_5": "cce:/internal/x/cc-fu/3d",
+      "__unresolved_6": "cce:/internal/x/cc-fu/animation",
+      "__unresolved_7": "cce:/internal/x/cc-fu/skeletal-animation",
+      "__unresolved_8": "cce:/internal/x/cc-fu/2d",
+      "__unresolved_9": "cce:/internal/x/cc-fu/sorting"
+    },
+    "./chunks/65/65afc9f92a92678e68467d2acf62ac580bc4e508.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/b4/b4631aa424650f2c18a9c42143098807457ae514.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/65/65afc9f92a92678e68467d2acf62ac580bc4e508.js",
+      "__unresolved_2": "./chunks/84/8404d59074a47f1511ab0095aeff5f29c769f60b.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/84/8404d59074a47f1511ab0095aeff5f29c769f60b.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/29/298fb58f15c0c62e5ae8feef2d1cc8c91b4bd98f.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/65/65afc9f92a92678e68467d2acf62ac580bc4e508.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/89/898dc10836e8c4d876495d9a02da28fa778c447b.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/44/4485e4c6687e8d8bfd65f1e88fbd453e41b14c1a.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/1c/1c25096627d61eb89453f096dc1ce631b9c34a0b.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/83/83df77a30c9dafc0719b65d7b9bb52bf8d01d888.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/83/83df77a30c9dafc0719b65d7b9bb52bf8d01d888.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/69/69a9d1c5f2a58bb6d179921f893b5b188c96e633.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/83/83df77a30c9dafc0719b65d7b9bb52bf8d01d888.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/09/09bc76f0f93ac26e01f2a164e6d2386d641dfe36.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/69/69a9d1c5f2a58bb6d179921f893b5b188c96e633.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/5a/5a36807590569d709e72009be904d8f498c07d67.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/69/69a9d1c5f2a58bb6d179921f893b5b188c96e633.js",
+      "__unresolved_2": "./chunks/09/09bc76f0f93ac26e01f2a164e6d2386d641dfe36.js",
+      "__unresolved_3": "./chunks/1c/1c25096627d61eb89453f096dc1ce631b9c34a0b.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
+      "__unresolved_0": "./chunks/5a/5a36807590569d709e72009be904d8f498c07d67.js",
+      "__unresolved_1": "./chunks/09/09bc76f0f93ac26e01f2a164e6d2386d641dfe36.js",
+      "__unresolved_10": "./chunks/84/8404d59074a47f1511ab0095aeff5f29c769f60b.js",
+      "__unresolved_11": "./chunks/c9/c9c114aa444cd6ba99598a906db478e6771f0fcd.js",
+      "__unresolved_2": "./chunks/69/69a9d1c5f2a58bb6d179921f893b5b188c96e633.js",
+      "__unresolved_3": "./chunks/83/83df77a30c9dafc0719b65d7b9bb52bf8d01d888.js",
+      "__unresolved_4": "./chunks/1c/1c25096627d61eb89453f096dc1ce631b9c34a0b.js",
+      "__unresolved_5": "./chunks/44/4485e4c6687e8d8bfd65f1e88fbd453e41b14c1a.js",
+      "__unresolved_6": "./chunks/b4/b4631aa424650f2c18a9c42143098807457ae514.js",
+      "__unresolved_7": "./chunks/89/898dc10836e8c4d876495d9a02da28fa778c447b.js",
+      "__unresolved_8": "./chunks/65/65afc9f92a92678e68467d2acf62ac580bc4e508.js",
+      "__unresolved_9": "./chunks/29/298fb58f15c0c62e5ae8feef2d1cc8c91b4bd98f.js"
+    }
+  }
+}
