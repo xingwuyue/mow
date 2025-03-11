@@ -79,15 +79,15 @@
     "value": {
       "depends": [
         "1248cd9a-17a5-4d76-9699-a1593ae4739b",
+        "e518e9b7-d81a-4441-ac40-3ecbd9db98e3",
+        "8e315a10-3555-4c09-b7f9-3dc7a401905f@f9941",
         "bfe9ce55-a81f-4775-a326-a84df2feb0cb@72036",
         "bfe9ce55-a81f-4775-a326-a84df2feb0cb",
         "bfe9ce55-a81f-4775-a326-a84df2feb0cb@bf26b",
         "bfe9ce55-a81f-4775-a326-a84df2feb0cb@d7fc4",
-        "8e315a10-3555-4c09-b7f9-3dc7a401905f@f9941",
-        "bfe9ce55-a81f-4775-a326-a84df2feb0cb@28438",
-        "c70a256d-1ce6-4903-8f55-b65244530c62",
         "96c324d8-5d9c-4b8c-a462-38906b8a1372",
         "9a74c54e-b484-4b26-a4b0-dc0e2f8e17db",
+        "c70a256d-1ce6-4903-8f55-b65244530c62",
         "e06d8208-d156-45ec-ad66-3b0f33981b99@f9941",
         "8dfea73d-7916-45f6-bf60-793e44fe03b8@f9941",
         "e11ba455-e4e6-4184-a9c0-292f4c53eb41@f9941",
@@ -100,14 +100,18 @@
       ],
       "dependScripts": [
         "ddd1a927-df42-46b0-84b6-44745e70878a",
-        "86cb6101-4e83-4464-8c82-70518bb57477",
-        "124a34ef-2660-4a4b-b512-34e7f18b9945"
+        "3cab8171-1a47-404c-995f-7120c5ebd0ee",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "a3a2b309-b7bf-440d-8261-d8655dfdf944",
+        "af03b36f-c71e-46ab-8a5f-ea33277d7569",
+        "09e4d50f-6c13-47fc-8175-6a4a09efd7a5",
+        "20e7693d-1692-4a0a-b53f-657af77b0047"
       ]
     },
     "versionCode": 1
   },
   "c70a256d-1ce6-4903-8f55-b65244530c62": {
-    "url": "db://assets/prefabs/Bullet.prefab",
+    "url": "db://assets/prefabs/Bullet/Bullet001.prefab",
     "value": {
       "depends": [
         "e4124194-ae44-4b0c-9892-7c41a13319a2@ce386",
@@ -115,34 +119,32 @@
         "1b1d0214-0b65-4223-9c76-d4700e9bf67f"
       ],
       "dependScripts": [
-        "00d478e8-269c-4a06-98d5-cee10837e776"
+        "2fb9ed31-a228-4dfd-ae41-8844599d22ee"
       ]
     },
     "versionCode": 1
   },
   "96c324d8-5d9c-4b8c-a462-38906b8a1372": {
-    "url": "db://assets/prefabs/Enemy01.prefab",
+    "url": "db://assets/prefabs/Enemy/Enemy01.prefab",
     "value": {
       "depends": [
         "22dbf08c-b9a3-46aa-8d9c-44eabc9cddc9@a0c60",
         "22dbf08c-b9a3-46aa-8d9c-44eabc9cddc9"
       ],
       "dependScripts": [
-        "8c1dbcc8-454b-40d7-863a-2d7bc4b3041f"
+        "0c8d11f6-6fe8-4e11-9b2d-42cf80559e91"
       ]
     },
     "versionCode": 1
   },
   "9a74c54e-b484-4b26-a4b0-dc0e2f8e17db": {
-    "url": "db://assets/prefabs/Enemy02.prefab",
+    "url": "db://assets/prefabs/Enemy/Enemy02.prefab",
     "value": {
       "depends": [
         "22dbf08c-b9a3-46aa-8d9c-44eabc9cddc9@a8b9e",
         "22dbf08c-b9a3-46aa-8d9c-44eabc9cddc9"
       ],
-      "dependScripts": [
-        "8c1dbcc8-454b-40d7-863a-2d7bc4b3041f"
-      ]
+      "dependScripts": []
     },
     "versionCode": 1
   },
@@ -2801,20 +2803,97 @@
     "versionCode": 1
   },
   "1b1d0214-0b65-4223-9c76-d4700e9bf67f": {
-    "url": "db://assets/prefabs/hiteffect01.prefab",
+    "url": "db://assets/prefabs/Effect/Hiteffect001.prefab",
     "value": {
       "depends": [
         "5488b11e-c17c-4980-977b-9290ca9ec685@5d8a7",
         "5488b11e-c17c-4980-977b-9290ca9ec685"
       ],
-      "dependScripts": [
-        "31531f3e-7b6c-4810-bdd6-0a885efbe369"
-      ]
+      "dependScripts": []
     },
     "versionCode": 1
   },
   "31531f3e-7b6c-4810-bdd6-0a885efbe369": {
     "url": "db://assets/scripts/HitEffect.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5522517b-af24-4146-b4d6-cdefe8c617fa": {
+    "url": "db://assets/prefabs/Bullet",
+    "value": {},
+    "versionCode": 1
+  },
+  "6eb351aa-2388-4ea7-9fe1-bc6875c948b5": {
+    "url": "db://assets/prefabs/Effect",
+    "value": {},
+    "versionCode": 1
+  },
+  "ce6fdfe6-dc80-46d0-85b4-fb7fc4cbf571": {
+    "url": "db://assets/prefabs/Enemy",
+    "value": {},
+    "versionCode": 1
+  },
+  "09e4d50f-6c13-47fc-8175-6a4a09efd7a5": {
+    "url": "db://assets/scripts/PlayerMovement.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0c8d11f6-6fe8-4e11-9b2d-42cf80559e91": {
+    "url": "db://assets/scripts/Enemy.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ff3a9cbd-c03a-40bf-a3c7-e24e4a8a22fd": {
+    "url": "db://assets/scripts/PlayerHealth.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5c9e4dbd-ce35-4b6d-9537-5e40f30b8ccd": {
+    "url": "db://assets/scripts/HealthManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e518e9b7-d81a-4441-ac40-3ecbd9db98e3": {
+    "url": "db://assets/prefabs/UI/PlayerHealth.prefab",
+    "value": {
+      "depends": [
+        "bfe9ce55-a81f-4775-a326-a84df2feb0cb@28438",
+        "bfe9ce55-a81f-4775-a326-a84df2feb0cb",
+        "bfe9ce55-a81f-4775-a326-a84df2feb0cb@9eaac"
+      ],
+      "dependScripts": [
+        "3cab8171-1a47-404c-995f-7120c5ebd0ee"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a18b0cbe-35fa-4d95-98c3-ea90902fcbf3": {
+    "url": "db://assets/prefabs/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "2fb9ed31-a228-4dfd-ae41-8844599d22ee": {
+    "url": "db://assets/scripts/Bullet.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a3a2b309-b7bf-440d-8261-d8655dfdf944": {
+    "url": "db://assets/scripts/PlayerCombat.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "af03b36f-c71e-46ab-8a5f-ea33277d7569": {
+    "url": "db://assets/scripts/PlayerRotation.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "20e7693d-1692-4a0a-b53f-657af77b0047": {
+    "url": "db://assets/scripts/EnemyManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3cab8171-1a47-404c-995f-7120c5ebd0ee": {
+    "url": "db://assets/scripts/PlayerHealthBar.ts",
     "value": {},
     "versionCode": 1
   }

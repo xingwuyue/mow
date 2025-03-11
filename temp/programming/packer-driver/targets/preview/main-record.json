@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5156.4595,
+      "mTimestamp": 7423740.3014,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -159,7 +159,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "value": "cce:/internal/x/cc-fu/physics-2d-builtin",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -168,7 +168,7 @@
             },
             "end": {
               "line": 12,
-              "column": 54
+              "column": 56
             }
           }
         },
@@ -367,7 +367,7 @@
         {
           "resolved": {
             "type": "external",
-            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-builtin"
           },
           "messages": []
         },
@@ -430,7 +430,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1820504.6252,
+      "mTimestamp": 15789993.6379,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -518,7 +518,7 @@
           }
         },
         {
-          "value": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts",
+          "value": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Bullet.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -527,12 +527,12 @@
             },
             "end": {
               "line": 10,
-              "column": 92
+              "column": 66
             }
           }
         },
         {
-          "value": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts",
+          "value": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/CameraController.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -541,12 +541,12 @@
             },
             "end": {
               "line": 11,
-              "column": 102
+              "column": 76
             }
           }
         },
         {
-          "value": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts",
+          "value": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Enemy.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -555,12 +555,12 @@
             },
             "end": {
               "line": 12,
-              "column": 91
+              "column": 65
             }
           }
         },
         {
-          "value": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts",
+          "value": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/EnemyManager.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -569,12 +569,12 @@
             },
             "end": {
               "line": 13,
-              "column": 97
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts",
+          "value": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerCombat.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -583,12 +583,12 @@
             },
             "end": {
               "line": 14,
-              "column": 95
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts",
+          "value": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerHealthBar.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -597,7 +597,35 @@
             },
             "end": {
               "line": 15,
-              "column": 102
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerMovement.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 74
+            }
+          }
+        },
+        {
+          "value": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerRotation.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 74
             }
           }
         }
@@ -649,42 +677,56 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts"
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Bullet.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts"
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/CameraController.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts"
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Enemy.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts"
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/EnemyManager.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts"
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerCombat.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts"
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerHealthBar.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerMovement.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerRotation.ts"
           },
           "messages": []
         }
@@ -1651,7 +1693,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1741242955092,
+      "mTimestamp": 1741672881271,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1704,6 +1746,1022 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Bullet.ts": {
+      "mTimestamp": {
+        "mtime": 1741687492422.2654,
+        "uuid": "2fb9ed31-a228-4dfd-ae41-8844599d22ee"
+      },
+      "chunkId": "7d0040e7a6ab8e92d3682c20b9f7364f19b4ccbf",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 95
+            },
+            "end": {
+              "line": 2,
+              "column": 99
+            }
+          }
+        },
+        {
+          "value": "./Enemy",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Enemy.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/CameraController.ts": {
+      "mTimestamp": {
+        "mtime": 1741676435881.4211,
+        "uuid": "ddd1a927-df42-46b0-84b6-44745e70878a"
+      },
+      "chunkId": "2c947e136b10ae9a7968d9811275a0eab35ddca4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Enemy.ts": {
+      "mTimestamp": {
+        "mtime": 1741688669936.3142,
+        "uuid": "0c8d11f6-6fe8-4e11-9b2d-42cf80559e91"
+      },
+      "chunkId": "fbf2dc89621cc8a17d7096c61e44b1332881100f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 71
+            },
+            "end": {
+              "line": 2,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./EnemyManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 29
+            },
+            "end": {
+              "line": 3,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./PlayerCombat",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 29
+            },
+            "end": {
+              "line": 4,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/EnemyManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerCombat.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1741243697422.6814,
+        "uuid": "124a34ef-2660-4a4b-b512-34e7f18b9945"
+      },
+      "chunkId": "87501fe001feaffc5b65988c2c87f40100d13409",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 95
+            },
+            "end": {
+              "line": 1,
+              "column": 99
+            }
+          }
+        },
+        {
+          "value": "./Enemy",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Enemy.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/HitEffect.ts": {
+      "mTimestamp": {
+        "mtime": 1741242649906.5615,
+        "uuid": "31531f3e-7b6c-4810-bdd6-0a885efbe369"
+      },
+      "chunkId": "cea3cb6a954b1f8b1173c228ad0ae8764f5be082",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerController.ts": {
+      "mTimestamp": {
+        "mtime": 1741244209432.7808,
+        "uuid": "86cb6101-4e83-4464-8c82-70518bb57477"
+      },
+      "chunkId": "9edd79cc5195addcfa9896874fac6bf3e2661dd1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 148
+            },
+            "end": {
+              "line": 1,
+              "column": 152
+            }
+          }
+        },
+        {
+          "value": "./Bullet",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./Enemy",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Enemy.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerMovement.ts": {
+      "mTimestamp": {
+        "mtime": 1741683150182.6035,
+        "uuid": "09e4d50f-6c13-47fc-8175-6a4a09efd7a5"
+      },
+      "chunkId": "801793273c0bfa97a3f9ebb9400f8069ce03904e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 41
+            },
+            "end": {
+              "line": 3,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerHealth.ts": {
+      "mTimestamp": {
+        "mtime": 1741676204634.7522,
+        "uuid": "ff3a9cbd-c03a-40bf-a3c7-e24e4a8a22fd"
+      },
+      "chunkId": "12d684e4cdc262875e72ce81e087737ba7aacaaa",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 90
+            },
+            "end": {
+              "line": 1,
+              "column": 94
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/HealthManager.ts": {
+      "mTimestamp": {
+        "mtime": 1741676242009.6394,
+        "uuid": "5c9e4dbd-ce35-4b6d-9537-5e40f30b8ccd"
+      },
+      "chunkId": "69a135908bb74624cc8f836f23e639ff92706a9c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 79
+            },
+            "end": {
+              "line": 1,
+              "column": 83
+            }
+          }
+        },
+        {
+          "value": "./PlayerHealth",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerHealth.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerCombat.ts": {
+      "mTimestamp": {
+        "mtime": 1741687562531.4797,
+        "uuid": "a3a2b309-b7bf-440d-8261-d8655dfdf944"
+      },
+      "chunkId": "0c80619ab3aee45b404b0d46db0925582f04c1ec",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./EnemyManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./Bullet",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/EnemyManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/Bullet.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerRotation.ts": {
+      "mTimestamp": {
+        "mtime": 1741683611903.8027,
+        "uuid": "af03b36f-c71e-46ab-8a5f-ea33277d7569"
+      },
+      "chunkId": "2912cc4bc46501a32d50f53cb26900aac7c62070",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "./PlayerCombat",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./PlayerMovement",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerCombat.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerMovement.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/EnemyManager.ts": {
+      "mTimestamp": {
+        "mtime": 1741683430252.9392,
+        "uuid": "20e7693d-1692-4a0a-b53f-657af77b0047"
+      },
+      "chunkId": "5a4d7f57da77d824c84dc27bd05b3ad289bd87b6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerHealthBar.ts": {
+      "mTimestamp": {
+        "mtime": 1741686351320.1672,
+        "uuid": "3cab8171-1a47-404c-995f-7120c5ebd0ee"
+      },
+      "chunkId": "15b5e74f13baaf30cb7e47dc7aa9fd18e7c3d38d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "./PlayerCombat",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///G:/Cocos/KillGrass/gecao/assets/scripts/PlayerCombat.ts"
           },
           "messages": []
         }

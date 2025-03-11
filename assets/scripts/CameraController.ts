@@ -6,12 +6,16 @@ export class CameraController extends Component {
     @property({ type: Node, tooltip: '要跟随的目标' })
     public target: Node | null = null;
 
+    @property({ type: Node, tooltip: '血条节点' })
+    public healthBar: Node | null = null;
+
     @property({ tooltip: '相机跟随速度' })
     public followSpeed: number = 5.0;
 
     private _camera: Camera | null = null;
     private _currentPos: Vec3 = new Vec3();
     private _targetPos: Vec3 = new Vec3();
+    private _healthBarOffset: Vec3 = new Vec3(0, -70, 0); // 血条偏移量
 
     start() {
         this._camera = this.getComponent(Camera);
@@ -32,5 +36,12 @@ export class CameraController extends Component {
         // 使用线性插值实现平滑跟随
         Vec3.lerp(this._currentPos, this._currentPos, this._targetPos, this.followSpeed * deltaTime);
         this.node.setWorldPosition(this._currentPos);
+
+        // 更新血条位置
+        if (this.healthBar) {
+            const healthBarPos = new Vec3();
+            Vec3.add(healthBarPos, targetWorldPos, this._healthBarOffset);
+            this.healthBar.setWorldPosition(healthBarPos);
+        }
     }
 }

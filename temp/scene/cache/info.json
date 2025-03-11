@@ -5,7 +5,9 @@
         "version": "Windows 11 Pro"
     },
     "sceneListMap": {
-        "1248cd9a-17a5-4d76-9699-a1593ae4739b": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\Game.scene"
+        "1248cd9a-17a5-4d76-9699-a1593ae4739b": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\Game.scene",
+        "96c324d8-5d9c-4b8c-a462-38906b8a1372": "G:\\Cocos\\KillGrass\\gecao\\assets\\prefabs\\Enemy\\Enemy01.prefab",
+        "c70a256d-1ce6-4903-8f55-b65244530c62": "G:\\Cocos\\KillGrass\\gecao\\assets\\prefabs\\Bullet\\Bullet001.prefab"
     },
     "deviceMd5": "6431e2b45a7da48216d504435c6bc8fc"
 }

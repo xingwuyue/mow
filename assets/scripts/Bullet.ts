@@ -1,104 +1,119 @@
-import { _decorator, Component, Node, Vec3, CCFloat, BoxCollider2D, Collider2D, Contact2DType, IPhysics2DContact, UITransform, Rect, instantiate, Prefab } from 'cc';
+import { _decorator, Component, Node, Vec3, Collider2D, Contact2DType, IPhysics2DContact, 
+    Sprite, instantiate, Prefab, Vec2, physics, Rect, CircleCollider2D, PhysicsSystem2D } from 'cc';
 import { Enemy } from './Enemy';
-import { HitEffect } from './HitEffect';
 const { ccclass, property } = _decorator;
 
 @ccclass('Bullet')
 export class Bullet extends Component {
-    @property({ type: CCFloat, tooltip: '子弹伤害' })
-    public damage: number = 50;
+    @property({ type: Prefab, tooltip: '命中特效预制体' })
+    public hitEffectPrefab: Prefab = null;
 
-    @property({ type: CCFloat, tooltip: '子弹飞行速度' })
-    public speed: number = 500;  // 增加速度使子弹更快
+    @property({ tooltip: '子弹速度' })
+    public speed: number = 500;
 
-    @property({ type: CCFloat, tooltip: '子弹销毁时间(秒)' })
-    public lifeTime: number = 1;
+    @property({ tooltip: '子弹伤害' })
+    public damage: number = 100;
+
+    @property({ tooltip: '销毁时间' })
+    public lifeTime: number = 2;
 
     private _direction: Vec3 = new Vec3();
-    private _spawnTime: number = 0;
+    
 
-    // 简化为只接收方向向量
     public init(direction: Vec3) {
-        this._direction = direction;
-        this._spawnTime = Date.now();
-    }
-
-    private _transform: UITransform | null = null;
-
-    onLoad() {
-        // 获取 UITransform 组件
-        this._transform = this.getComponent(UITransform);
-        if (!this._transform) {
-            this._transform = this.addComponent(UITransform);
-        }
-        
-        // 设置子弹的尺寸
-        this._transform.setContentSize(20, 20);
+        this._direction.set(direction);
     }
 
     update(deltaTime: number) {
-        if (Date.now() - this._spawnTime > this.lifeTime * 1000) {
-            this.node.destroy();
-            return;
-        }
-
-        // 增加移动速度
-        const moveAmount = this.speed * deltaTime * 2;  // 将速度翻倍
-        const currentPos = this.node.position;
-        const newPos = new Vec3(
+        // 每帧更新子弹位置
+        const moveAmount = this.speed * deltaTime;
+        const currentPos = this.node.getPosition();
+        this.node.setPosition(
             currentPos.x + this._direction.x * moveAmount,
             currentPos.y + this._direction.y * moveAmount,
-            0
+            currentPos.z
         );
-        
-        this.node.setPosition(newPos);
-        this.checkCollision();
+
+        // 使用圆形检测敌人
+        const collider = this.getComponent(CircleCollider2D);
+        if (collider) {
+            const point = new Vec2(currentPos.x, currentPos.y);
+            const results = PhysicsSystem2D.instance.testPoint(point);
+            
+            for (const result of results) {
+                if (result.group === 4) {
+                    const enemy = result.getComponent(Enemy);
+                    if (enemy) {
+                        enemy.takeDamage(this.damage);
+                        
+                        // 创建命中特效
+                        if (this.hitEffectPrefab) {
+                            const hitEffect = instantiate(this.hitEffectPrefab);
+                            hitEffect.parent = this.node.parent;
+                            hitEffect.setWorldPosition(enemy.node.getWorldPosition());
+                            
+                            hitEffect.getComponent(Sprite)?.scheduleOnce(() => {
+                                hitEffect.destroy();
+                            }, 2);
+                        }
+                        
+                        this.node.destroy();
+                        break;
+                    }
+                }
+            }
+        }
     }
 
-    @property({ type: Prefab, tooltip: '击中特效预制体' })
-    public hitEffectPrefab: Prefab | null = null;
+    start() {
+        // 初始化碰撞体
+        const collider = this.getComponent(Collider2D);
+        if (collider) {
+            collider.enabled = true;
+            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+            collider.on(Contact2DType.PRE_SOLVE, this.onBeginContact, this);
+        }
 
-    private checkCollision() {
-        if (!this._transform) return;
-    
-        const bulletPos = this.node.worldPosition;
-        const bulletBBox = new Rect(
-            bulletPos.x - 15,
-            bulletPos.y - 15,
-            30,
-            30
-        );
-    
-        const enemies = this.node.parent?.getComponentsInChildren(Enemy) || [];
-        
-        for (const enemy of enemies) {
-            if (enemy.isDead()) continue;
-    
-            const enemyNode = enemy.node;
-            const enemyPos = enemyNode.worldPosition;
-            const enemyBBox = new Rect(
-                enemyPos.x - 25,
-                enemyPos.y - 25,
-                50,
-                50
-            );
-    
-            if (bulletBBox.intersects(enemyBBox)) {
-                // 创建击中特效
-                if (this.hitEffectPrefab) {
-                    const effect = instantiate(this.hitEffectPrefab);
-                    effect.parent = this.node.parent;
-                    const effectPos = new Vec3(bulletPos.x, bulletPos.y, 0);
-                    effect.setWorldPosition(effectPos);
-                    
-                    // 添加特效控制组件
-                    effect.addComponent(HitEffect);
-                }
-    
+        // 确保物理系统已启用
+        if (!PhysicsSystem2D.instance.enable) {
+            PhysicsSystem2D.instance.enable = true;
+        }
+
+        // 自动销毁
+        this.scheduleOnce(() => this.node.destroy(), this.lifeTime);
+    }
+
+
+    onDestroy() {
+        const collider = this.getComponent(Collider2D);
+        if (collider) {
+            collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+            collider.off(Contact2DType.PRE_SOLVE, this.onBeginContact, this);
+        }
+    }
+
+    onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        // 只对敌人产生反应
+        if (otherCollider.group === 4) {
+            const enemy = otherCollider.getComponent(Enemy);
+            if (enemy) {
+                // 对敌人造成伤害
                 enemy.takeDamage(this.damage);
-                this.node.destroy();
-                break;
+                
+                // 创建命中特效
+                if (this.hitEffectPrefab) {
+                    const hitEffect = instantiate(this.hitEffectPrefab);
+                    hitEffect.parent = this.node.parent;
+                    hitEffect.setWorldPosition(enemy.node.getWorldPosition());
+                    
+                    // 2秒后销毁特效
+                    hitEffect.getComponent(Sprite).scheduleOnce(() => {
+                        hitEffect.destroy();
+                    }, 0.3);
+                }
             }
+            // 销毁子弹
+            this.node.destroy();
         }
     }
 }

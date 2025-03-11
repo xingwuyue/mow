@@ -1,183 +1,149 @@
-import { _decorator, Component, Node, Vec3, CCFloat, BoxCollider2D, Contact2DType, Collider2D, IPhysics2DContact } from 'cc';
+import { _decorator, Component, Node, Vec3, CircleCollider2D, Contact2DType, Collider2D, 
+         IPhysics2DContact, RigidBody2D, Vec2, ERigidBody2DType } from 'cc';
+import { EnemyManager } from './EnemyManager';
+import { PlayerCombat } from './PlayerCombat';
 const { ccclass, property } = _decorator;
 
 @ccclass('Enemy')
 export class Enemy extends Component {
-    @property({ type: CCFloat, tooltip: '碰撞半径' })
-    public collisionRadius: number = 20;
+    @property({ tooltip: '血量' })
+    public maxHealth: number = 100;
 
-    @property({ type: CCFloat, tooltip: '敌人血量' })
-    public health: number = 20;
+    @property({ tooltip: '移动速度' })
+    public moveSpeed: number = 250;
 
-    @property({ type: CCFloat, tooltip: '敌人移动速度' })
-    public moveSpeed: number = 20;
+    @property({ tooltip: '攻击力' })
+    public attackPower: number = 25;
 
-    @property({ type: CCFloat, tooltip: '敌人攻击力' })
-    public attackPower: number = 10;
+    @property({ tooltip: '攻击间隔(秒)' })
+    public attackInterval: number = 1;
 
-    @property({ type: CCFloat, tooltip: '敌人攻击范围' })
-    public attackRange: number = 2;
+    @property({ tooltip: '安全距离' })
+    private _safeDistance: number = 100;
 
-    @property({ type: CCFloat, tooltip: '敌人攻击角度(度)' })
-    public attackAngle: number = 60;
+    private _isAttacking: boolean = false;
+    private _canAttack: boolean = true;
+    private _currentDirection: Vec3 = new Vec3();
+    private _collider: CircleCollider2D | null = null;
+    private _currentHealth: number = 0;
+    private _isColliding: boolean = false;
+    private _playerCombat: PlayerCombat | null = null;
 
-    @property({ type: CCFloat, tooltip: '敌人攻击间隔(秒)' })
-    public attackInterval: number = 0.8;
-
-    public target: Node | null = null;
-    public isElite: boolean = false;
-
-    private _lastAttackTime: number = 0;
-
-    private _isDead: boolean = false;
-    private _deathTime: number = 0;
-
-    @property({ type: CCFloat, tooltip: '避障检测半径' })
-    public avoidanceRadius: number = 40;
-
-    @property({ type: CCFloat, tooltip: '避障力度' })
-    public avoidanceForce: number = 0.5;
-
-    update(deltaTime: number) {
-        if (this._isDead) {
-            this.node.destroy();
-            return;
-        }
-    
-        if (!this.target) return;
-    
-        const targetPos = this.target.worldPosition;
-        const myPos = this.node.worldPosition;
-        
-        // 计算朝向目标的基础方向
-        const baseDirection = Vec3.subtract(new Vec3(), targetPos, myPos).normalize();
-        
-        // 获取避障力并大幅降低其影响
-        const avoidanceForce = this.calculateAvoidanceForce();
-        avoidanceForce.multiplyScalar(0.1); // 将避障力降低到很小
-        
-        // 增加基础方向的权重
-        baseDirection.multiplyScalar(2.0); // 加强追踪力度
-        
-        // 合并方向，确保基础方向占主导
-        const direction = Vec3.add(new Vec3(), baseDirection, avoidanceForce).normalize();
-        
-        const distance = Vec3.distance(targetPos, myPos);
-        const angle = Math.atan2(direction.y, direction.x) * 180 / Math.PI;
-        this.node.angle = angle - 90;
-    
-        // 只要不在攻击范围内就持续移动
-        if (distance > this.attackRange) {
-            const moveAmount = this.moveSpeed * deltaTime;
-            const newPos = new Vec3(
-                myPos.x + direction.x * moveAmount,
-                myPos.y + direction.y * moveAmount,
-                0
-            );
-            this.node.setWorldPosition(newPos);
-        } else {
-            // 在攻击范围内时尝试攻击
-            this.tryAttack();
-        }
-    }
-
-    private calculateAvoidanceForce(): Vec3 {
-        const avoidanceForce = new Vec3();
-        const myPos = this.node.worldPosition;
-        
-        const enemies = this.node.parent?.getComponentsInChildren(Enemy) || [];
-        
-        for (const enemy of enemies) {
-            if (enemy === this || enemy.isDead()) continue;
-            
-            const enemyPos = enemy.node.worldPosition;
-            const distance = Vec3.distance(myPos, enemyPos);
-            
-            if (distance < this.avoidanceRadius && distance > 0) {
-                const away = Vec3.subtract(new Vec3(), myPos, enemyPos).normalize();
-                const force = (this.avoidanceRadius - distance) / this.avoidanceRadius;
-                away.multiplyScalar(force * this.avoidanceForce);
-                avoidanceForce.add(away);
-            }
-        }
-        
-        return avoidanceForce;
-    }
-
-    private tryAttack() {
-        const now = Date.now();
-        if (now - this._lastAttackTime >= this.attackInterval * 1000) {
-            this.attack();
-            this._lastAttackTime = now;
-        }
-    }
-
-    private attack() {
-        if (!this.target) return;
-
-        const targetPos = this.target.worldPosition;
-        const myPos = this.node.worldPosition;
-        const direction = Vec3.subtract(new Vec3(), targetPos, myPos);
-        const angle = Math.atan2(direction.y, direction.x) * 180 / Math.PI;
-
-        // 检查目标是否在攻击角度范围内
-        const halfAngle = this.attackAngle / 2;
-        const currentAngle = (angle + 360) % 360;
-        const forwardAngle = (this.node.angle + 360) % 360;
-        const angleDiff = Math.abs(currentAngle - forwardAngle);
-
-        if (angleDiff <= halfAngle || angleDiff >= 360 - halfAngle) {
-            // 在攻击角度内，造成伤害
-            console.log('Enemy attacking!');
-            // TODO: 调用玩家受伤方法
-        }
-    }
-
-    public takeDamage(damage: number) {
-        if (this._isDead) return;
-        
-        this.health -= damage;
-        if (this.health <= 0) {
-            this._isDead = true;
-            this._deathTime = Date.now();
-            // 可以在这里添加死亡动画或效果
-        }
-    }
-
-    // 精英怪设置
-    public setElite() {
-        if (this.isElite) {
-            this.health *= 2;
-            this.attackPower *= 1.5;
-            this.moveSpeed *= 0.8;
-            // TODO: 可以在这里设置精英怪的外观
-        }
-    }
-    public isDead(): boolean {
-        return this._isDead;
-    }
     onLoad() {
-        console.log('Enemy onLoad - 节点信息:', {
-            name: this.node.name,
-            position: this.node.position,
-            parent: this.node.parent?.name,
-            active: this.node.active
-        });
-    
-        const collider = this.getComponent(BoxCollider2D);
-        if (collider) {
-            collider.enabled = true;
-            // 设置敌人的碰撞组为3（ENEMY组）
-            //collider.group = 3;
-            collider.sensor = false;
+        this._collider = this.getComponent(CircleCollider2D);
+        if (this._collider) {
+            this._collider.group = 4;
+            this._collider.enabled = true;
+            this._collider.sensor = true; // 设置为传感器，不参与物理模拟
+            this._collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+            this._collider.on(Contact2DType.END_CONTACT, this.onEndContact, this);
+            this._safeDistance = this._collider.radius * 2;
         }
+
+        // 设置刚体属性
+        const rigidbody = this.getComponent(RigidBody2D);
+        if (rigidbody) {
+            rigidbody.type = ERigidBody2DType.Dynamic;
+            rigidbody.fixedRotation = true;  // 防止旋转
+            rigidbody.linearDamping = 0;     // 没有阻尼
+            rigidbody.gravityScale = 0;      // 无重力
+            rigidbody.enabledContactListener = true;
+        }
+
+        // 添加到 EnemyManager
+        EnemyManager.instance.addEnemy(this.node);
+        // 初始化血量
+        this._currentHealth = this.maxHealth;
+
+         // 获取玩家的 PlayerCombat 组件
+         const playerNode = EnemyManager.instance.getPlayerNode();
+         if (playerNode) {
+             this._playerCombat = playerNode.getComponent(PlayerCombat);
+         }
+     }
+
+    onDestroy() {
+        if (this._collider) {
+            this._collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+            this._collider.off(Contact2DType.END_CONTACT, this.onEndContact, this);
+        }
+
+        // 从 EnemyManager 移除
+        if (EnemyManager.instance) {
+            EnemyManager.instance.removeEnemy(this.node);
+        }
+    }
+
+    update(dt: number) {
+        const startTime = performance.now();
+        const playerNode = EnemyManager.instance.getPlayerNode();
+        if (!playerNode || this._isColliding) return;
+
+        const currentPos = this.node.getWorldPosition();
+        const targetPos = playerNode.worldPosition;
+        
+        Vec3.subtract(this._currentDirection, targetPos, currentPos);
+        this._currentDirection.normalize();
+    
+        // 更新旋转
+        const angle = Math.atan2(this._currentDirection.y, this._currentDirection.x);
+        this.node.angle = angle * 180 / Math.PI + 90 + 180;
+    
+        // 平滑移动
+        const moveAmount = this.moveSpeed * dt;
+        const newPos = new Vec3(
+            currentPos.x + this._currentDirection.x * moveAmount,
+            currentPos.y + this._currentDirection.y * moveAmount,
+            currentPos.z
+        );
+        this.node.setWorldPosition(newPos);
+        const endTime = performance.now();
+        //console.log(`Update time: ${endTime - startTime}ms`);
     }
 
     private onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
-        console.log('Enemy collision detected with:', otherCollider.node.name);
+        // 检查碰撞对象是否有 PlayerCombat 组件
+        const playerCombat = otherCollider.node.getComponent(PlayerCombat);
+        if (playerCombat) {
+            this._isColliding = true;
+            if (this._canAttack) {
+                this.attack(playerCombat);  // 将 playerCombat 传递给 attack 方法
+            }
+        }
     }
-    private onDeath() {
-            // 立即销毁敌人节点
+
+    private onEndContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        if (otherCollider.node.getComponent('PlayerCombat')) {
+            this._isColliding = false;
+        }
+    }
+
+    private attack(playerCombat: PlayerCombat) {
+        this._canAttack = false;
+        
+        // 直接对玩家造成伤害
+        playerCombat.takeDamage(this.attackPower);
+        console.log(`Enemy attacked player, damage: ${this.attackPower}`);
+        
+        // 攻击间隔后重置攻击状态
+        this.scheduleOnce(() => {
+            this._canAttack = true;
+            // 检查玩家是否仍在碰撞范围内
+            if (this._isColliding && playerCombat.node.isValid) {
+                this.attack(playerCombat);
+            }
+        }, this.attackInterval);
+    }
+
+    public takeDamage(damage: number) {
+        this._currentHealth -= damage;
+        if (this._currentHealth <= 0) {
             this.node.destroy();
         }
+    }
+
+    // 获取当前血量百分比（用于血条显示）
+    public getHealthPercent(): number {
+        return this._currentHealth / this.maxHealth;
+    }
 }
