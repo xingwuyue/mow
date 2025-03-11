@@ -1,0 +1,679 @@
+14:36:00.147 debug: 2025/3/6 14:36:00
+14:36:00.148 debug: Project: G:\Cocos\KillGrass\PlayableMowGame\PlayableMowGame
+14:36:00.148 debug: Targets: editor,preview
+14:36:00.159 debug: Incremental file seems great.
+14:36:00.160 debug: Engine path: G:\Cocos\Creator\3.8.5\resources\resources\3d\engine
+14:36:00.168 debug: Initializing target [Editor]
+14:36:00.169 debug: Loading cache
+14:36:00.170 debug: Loading cache costs 0.9933000000000902ms.
+14:36:00.170 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,vendor-google,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
+14:36:00.170 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+14:36:00.170 debug: Initializing target [Preview]
+14:36:00.170 debug: Loading cache
+14:36:00.171 debug: Loading cache costs 0.6980999999996129ms.
+14:36:00.171 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+14:36:00.205 debug: Sync engine features: 2d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+14:36:00.208 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "G:\\Cocos\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets"
+  }
+]
+14:36:00.208 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/"
+  }
+}
+14:36:00.209 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/"
+  }
+}
+14:36:00.210 debug: Pulling asset-db.
+14:36:00.214 debug: Fetch asset-db cost: 4.355799999999363ms.
+14:36:00.215 debug: Build iteration starts.
+Number of accumulated asset changes: 12
+Feature changed: false
+14:36:00.216 debug: Target(editor) build started.
+14:36:00.219 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+14:36:00.219 debug: Inspect cce:/internal/x/cc
+14:36:00.270 debug: transform url: 'cce:/internal/x/cc' costs: 50.70 ms
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+14:36:00.272 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/vendor-google from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/vendor-google.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
+14:36:00.273 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+14:36:00.273 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+14:36:00.274 debug: Inspect cce:/internal/x/prerequisite-imports
+14:36:00.308 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 34.60 ms
+14:36:00.325 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:36:00.326 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:36:00.326 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:36:00.347 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:36:00.348 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:36:00.348 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:36:00.349 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:36:00.349 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:36:00.350 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:00.350 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:36:00.351 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:36:00.351 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:36:00.352 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.352 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 06 2025 14:22:56 GMT+0800 (中国标准时间), Current mtime: Thu Mar 06 2025 14:35:55 GMT+0800 (中国标准时间)
+14:36:00.352 debug: Inspect cce:/internal/code-quality/cr.mjs
+14:36:00.368 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 15.90 ms
+14:36:00.370 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+14:36:00.370 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+14:36:00.370 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+14:36:00.370 debug: Resolve cc/env from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+14:36:00.371 debug: Resolve ./builtin-pipeline-settings from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:36:00.372 debug: Resolve ./builtin-pipeline-pass from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:36:00.372 debug: Resolve ./builtin-pipeline from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:36:00.372 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.372 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+14:36:00.373 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+14:36:00.373 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+14:36:00.373 debug: Resolve cc/env from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+14:36:00.374 debug: Resolve ./builtin-pipeline-types from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:36:00.374 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+14:36:00.374 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+14:36:00.374 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+14:36:00.374 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.374 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+14:36:00.374 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+14:36:00.374 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+14:36:00.375 debug: Resolve ./builtin-pipeline-settings from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:36:00.375 debug: Resolve cc/env from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+14:36:00.375 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.375 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+14:36:00.375 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+14:36:00.376 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+14:36:00.376 debug: Resolve cc/env from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+14:36:00.377 debug: Resolve ./builtin-pipeline-types from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:36:00.377 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:36:00.377 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:36:00.377 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:36:00.377 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.377 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+14:36:00.377 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+14:36:00.377 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+14:36:00.378 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:00.379 debug: Resolve ./HitEffect from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts as cce:/internal/x/cc.
+14:36:00.379 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.380 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:36:00.380 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:36:00.380 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:36:00.381 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:00.381 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.381 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:36:00.381 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:36:00.381 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:36:00.381 debug: Resolve ./Bullet from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:36:00.382 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:00.403 debug: Target(editor) ends with cost 187.53619999999955ms.
+14:36:00.404 debug: Target(preview) build started.
+14:36:00.407 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+14:36:00.407 debug: Inspect cce:/internal/x/cc
+14:36:00.450 debug: transform url: 'cce:/internal/x/cc' costs: 42.50 ms
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+14:36:00.451 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+14:36:00.452 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+14:36:00.452 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+14:36:00.452 debug: Inspect cce:/internal/x/prerequisite-imports
+14:36:00.469 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 16.90 ms
+14:36:00.487 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:36:00.488 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:36:00.489 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:36:00.489 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:36:00.490 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:36:00.492 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:36:00.493 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:36:00.493 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:36:00.494 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:00.494 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:36:00.496 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:36:00.496 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:36:00.496 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.497 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 06 2025 14:22:56 GMT+0800 (中国标准时间), Current mtime: Thu Mar 06 2025 14:35:55 GMT+0800 (中国标准时间)
+14:36:00.497 debug: Inspect cce:/internal/code-quality/cr.mjs
+14:36:00.516 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 19.10 ms
+14:36:00.526 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+14:36:00.526 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+14:36:00.526 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+14:36:00.526 debug: Resolve cc/env from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+14:36:00.527 debug: Resolve ./builtin-pipeline-settings from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:36:00.528 debug: Resolve ./builtin-pipeline-pass from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:36:00.529 debug: Resolve ./builtin-pipeline from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:36:00.529 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.529 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+14:36:00.529 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+14:36:00.529 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+14:36:00.529 debug: Resolve cc/env from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+14:36:00.530 debug: Resolve ./builtin-pipeline-types from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:36:00.530 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+14:36:00.530 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+14:36:00.530 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+14:36:00.530 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.530 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+14:36:00.531 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+14:36:00.531 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+14:36:00.532 debug: Resolve ./builtin-pipeline-settings from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:36:00.532 debug: Resolve cc/env from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+14:36:00.532 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.532 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+14:36:00.532 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+14:36:00.532 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+14:36:00.532 debug: Resolve cc/env from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+14:36:00.533 debug: Resolve ./builtin-pipeline-types from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:36:00.533 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:36:00.533 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:36:00.533 debug: Resolve cc from file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:36:00.533 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.533 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+14:36:00.533 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+14:36:00.533 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+14:36:00.534 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:00.534 debug: Resolve ./HitEffect from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:36:00.534 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+14:36:00.534 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:36:00.535 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:00.536 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+14:36:00.536 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:36:00.536 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:36:00.536 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:36:00.536 debug: Resolve ./Bullet from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:36:00.537 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:00.549 debug: Target(preview) ends with cost 144.69989999999962ms.
+14:36:00.944 debug: Pulling asset-db.
+14:36:01.319 debug: Fetch asset-db cost: 374.78060000000005ms.
+14:36:01.320 debug: Build iteration starts.
+Number of accumulated asset changes: 12
+Feature changed: false
+14:36:01.320 debug: Target(editor) build started.
+14:36:01.323 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间)
+14:36:01.323 debug: Inspect cce:/internal/x/prerequisite-imports
+14:36:01.338 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 14.70 ms
+14:36:01.339 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:36:01.340 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:36:01.341 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:36:01.341 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:36:01.342 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:36:01.343 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:36:01.343 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:36:01.344 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:36:01.344 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:01.345 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:36:01.345 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:36:01.346 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:36:01.360 debug: Target(editor) ends with cost 37.61790000000019ms.
+14:36:01.360 debug: Target(preview) build started.
+14:36:01.362 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间)
+14:36:01.362 debug: Inspect cce:/internal/x/prerequisite-imports
+14:36:01.375 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 12.50 ms
+14:36:01.377 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:36:01.377 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:36:01.378 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:36:01.378 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:36:01.379 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:36:01.379 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:36:01.380 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:36:01.380 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:36:01.380 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:36:01.381 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:36:01.381 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:36:01.381 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:36:01.390 debug: Target(preview) ends with cost 29.239400000000387ms.
+14:48:22.883 debug: Dispatch build request for time accumulated 1 asset changes.
+14:48:22.884 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:48:22.885 debug: Target(editor) build started.
+14:48:22.887 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:12:27 GMT+0800 (中国标准时间)
+14:48:22.888 debug: Inspect cce:/internal/x/prerequisite-imports
+14:48:22.908 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 20.90 ms
+14:48:22.911 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:48:22.911 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:48:22.912 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:48:22.912 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:48:22.913 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:48:22.914 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:48:22.914 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:48:22.915 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:48:22.915 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:48:22.917 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:48:22.917 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts. Last mtime: Thu Mar 06 2025 14:26:30 GMT+0800 (中国标准时间)@124a34ef-2660-4a4b-b512-34e7f18b9945, Current mtime: Thu Mar 06 2025 14:48:17 GMT+0800 (中国标准时间)@124a34ef-2660-4a4b-b512-34e7f18b9945
+14:48:22.917 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts
+14:48:23.024 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts' costs: 106.50 ms
+14:48:23.026 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:48:23.027 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:48:23.027 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+14:48:23.027 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:23.027 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:23.027 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:23.027 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:48:23.118 debug: Target(editor) ends with cost 232.79180000000633ms.
+14:48:23.118 debug: Target(preview) build started.
+14:48:23.120 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:12:28 GMT+0800 (中国标准时间)
+14:48:23.120 debug: Inspect cce:/internal/x/prerequisite-imports
+14:48:23.133 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 12.70 ms
+14:48:23.136 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:48:23.136 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:48:23.137 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:48:23.138 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:48:23.138 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:48:23.139 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:48:23.139 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:48:23.140 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:48:23.140 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:48:23.140 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:48:23.140 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts. Last mtime: Thu Mar 06 2025 14:26:30 GMT+0800 (中国标准时间)@124a34ef-2660-4a4b-b512-34e7f18b9945, Current mtime: Thu Mar 06 2025 14:48:17 GMT+0800 (中国标准时间)@124a34ef-2660-4a4b-b512-34e7f18b9945
+14:48:23.140 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts
+14:48:23.219 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts' costs: 78.10 ms
+14:48:23.222 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:48:23.222 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:48:23.223 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+14:48:23.223 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:23.223 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:23.223 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+14:48:23.223 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:48:23.283 debug: Target(preview) ends with cost 164.81720000004862ms.
+14:53:00.151 debug: Dispatch build request for time accumulated 1 asset changes.
+14:53:00.153 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:53:00.153 debug: Target(editor) build started.
+14:53:00.155 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:12:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:05 GMT+0800 (中国标准时间)
+14:53:00.155 debug: Inspect cce:/internal/x/prerequisite-imports
+14:53:00.174 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 18.80 ms
+14:53:00.177 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:53:00.177 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:53:00.178 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:53:00.179 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:53:00.179 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:53:00.180 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:53:00.180 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:53:00.181 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:53:00.181 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:53:00.182 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:53:00.182 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:53:00.183 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:53:00.183 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts. Last mtime: Thu Mar 06 2025 14:03:36 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477, Current mtime: Thu Mar 06 2025 14:52:56 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477
+14:53:00.183 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts
+14:53:00.316 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts' costs: 132.80 ms
+14:53:00.318 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+14:53:00.318 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:53:00.318 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:53:00.318 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:53:00.318 debug: Resolve ./Bullet from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:53:00.319 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:53:00.328 debug: Target(editor) ends with cost 174.38769999996293ms.
+14:53:00.328 debug: Target(preview) build started.
+14:53:00.330 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:12:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:05 GMT+0800 (中国标准时间)
+14:53:00.330 debug: Inspect cce:/internal/x/prerequisite-imports
+14:53:00.347 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 17.00 ms
+14:53:00.349 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:53:00.350 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:53:00.350 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:53:00.351 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:53:00.352 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:53:00.353 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:53:00.353 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:53:00.354 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:53:00.354 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:53:00.355 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:53:00.355 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:53:00.356 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:53:00.356 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts. Last mtime: Thu Mar 06 2025 14:03:36 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477, Current mtime: Thu Mar 06 2025 14:52:56 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477
+14:53:00.356 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts
+14:53:00.500 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts' costs: 144.50 ms
+14:53:00.503 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+14:53:00.503 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:53:00.504 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:53:00.504 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:53:00.504 debug: Resolve ./Bullet from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:53:00.505 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:53:00.516 debug: Target(preview) ends with cost 187.57539999997243ms.
+14:55:37.993 debug: Dispatch build request for time accumulated 1 asset changes.
+14:55:37.996 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:55:37.997 debug: Target(editor) build started.
+14:55:37.999 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:19:42 GMT+0800 (中国标准时间)
+14:55:37.999 debug: Inspect cce:/internal/x/prerequisite-imports
+14:55:38.014 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 15.20 ms
+14:55:38.016 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:55:38.017 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:55:38.017 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:55:38.018 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:55:38.018 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:55:38.019 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:55:38.019 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:55:38.019 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:55:38.020 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:55:38.020 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:55:38.021 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:55:38.021 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:55:38.021 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts. Last mtime: Thu Mar 06 2025 14:52:56 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477, Current mtime: Thu Mar 06 2025 14:55:03 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477
+14:55:38.021 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts
+14:55:38.124 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts' costs: 102.20 ms
+14:55:38.126 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+14:55:38.126 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:55:38.126 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:55:38.126 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:55:38.127 debug: Resolve ./Bullet from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:55:38.128 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:55:38.148 debug: Target(editor) ends with cost 150.9232999999076ms.
+14:55:38.148 debug: Target(preview) build started.
+14:55:38.162 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:19:43 GMT+0800 (中国标准时间)
+14:55:38.162 debug: Inspect cce:/internal/x/prerequisite-imports
+14:55:38.174 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 11.80 ms
+14:55:38.176 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:55:38.177 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:55:38.178 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:55:38.178 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:55:38.179 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:55:38.180 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:55:38.180 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:55:38.180 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:55:38.181 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:55:38.181 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:55:38.182 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:55:38.182 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:55:38.182 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts. Last mtime: Thu Mar 06 2025 14:52:56 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477, Current mtime: Thu Mar 06 2025 14:55:03 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477
+14:55:38.182 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts
+14:55:38.295 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts' costs: 112.70 ms
+14:55:38.297 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+14:55:38.297 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:55:38.297 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:55:38.297 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:55:38.298 debug: Resolve ./Bullet from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:55:38.298 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:55:38.334 debug: Target(preview) ends with cost 185.89470000006258ms.
+14:56:50.773 debug: Dispatch build request for time accumulated 1 asset changes.
+14:56:50.774 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:56:50.774 debug: Target(editor) build started.
+14:56:50.777 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:19:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:55 GMT+0800 (中国标准时间)
+14:56:50.777 debug: Inspect cce:/internal/x/prerequisite-imports
+14:56:50.798 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 20.80 ms
+14:56:50.800 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:56:50.801 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:56:50.802 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:56:50.802 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:56:50.803 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:56:50.803 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:56:50.804 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:56:50.805 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:56:50.805 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:56:50.806 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:56:50.807 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:56:50.807 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:56:50.807 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts. Last mtime: Thu Mar 06 2025 14:55:03 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477, Current mtime: Thu Mar 06 2025 14:56:49 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477
+14:56:50.808 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts
+14:56:50.970 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts' costs: 162.60 ms
+14:56:50.974 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+14:56:50.974 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:56:50.974 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:56:50.975 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:56:50.976 debug: Resolve ./Bullet from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:56:50.977 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:56:50.994 debug: Target(editor) ends with cost 219.57129999995232ms.
+14:56:50.994 debug: Target(preview) build started.
+14:56:50.997 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:19:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:55 GMT+0800 (中国标准时间)
+14:56:50.997 debug: Inspect cce:/internal/x/prerequisite-imports
+14:56:51.013 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 16.20 ms
+14:56:51.016 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+14:56:51.017 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+14:56:51.018 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+14:56:51.019 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+14:56:51.019 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+14:56:51.020 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:56:51.021 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:56:51.022 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+14:56:51.023 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:56:51.024 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+14:56:51.024 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+14:56:51.025 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+14:56:51.025 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts. Last mtime: Thu Mar 06 2025 14:55:03 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477, Current mtime: Thu Mar 06 2025 14:56:49 GMT+0800 (中国标准时间)@86cb6101-4e83-4464-8c82-70518bb57477
+14:56:51.025 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts
+14:56:51.150 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts' costs: 124.50 ms
+14:56:51.153 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+14:56:51.154 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:56:51.154 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:56:51.154 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+14:56:51.154 debug: Resolve ./Bullet from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+14:56:51.155 debug: Resolve ./Enemy from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+14:56:51.176 debug: Target(preview) ends with cost 181.12819999991916ms.
+15:01:33.058 debug: Dispatch build request for time accumulated 1 asset changes.
+15:01:33.059 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:01:33.059 debug: Target(editor) build started.
+15:01:33.062 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:25:38 GMT+0800 (中国标准时间)
+15:01:33.062 debug: Inspect cce:/internal/x/prerequisite-imports
+15:01:33.081 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 18.90 ms
+15:01:33.084 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+15:01:33.085 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+15:01:33.085 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:01:33.086 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:01:33.087 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:01:33.087 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:01:33.088 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+15:01:33.088 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+15:01:33.089 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+15:01:33.089 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts. Last mtime: Thu Mar 06 2025 14:33:58 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f, Current mtime: Thu Mar 06 2025 15:01:30 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f
+15:01:33.089 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts
+15:01:33.156 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts' costs: 66.60 ms
+15:01:33.158 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+15:01:33.158 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+15:01:33.159 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+15:01:33.160 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:01:33.160 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:01:33.162 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:01:33.172 debug: Target(editor) ends with cost 112.12599999993108ms.
+15:01:33.172 debug: Target(preview) build started.
+15:01:33.174 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:25:38 GMT+0800 (中国标准时间)
+15:01:33.174 debug: Inspect cce:/internal/x/prerequisite-imports
+15:01:33.187 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 13.10 ms
+15:01:33.189 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+15:01:33.189 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+15:01:33.190 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:01:33.190 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:01:33.191 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:01:33.191 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:01:33.192 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+15:01:33.192 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+15:01:33.193 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+15:01:33.193 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts. Last mtime: Thu Mar 06 2025 14:33:58 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f, Current mtime: Thu Mar 06 2025 15:01:30 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f
+15:01:33.193 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts
+15:01:33.256 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts' costs: 63.30 ms
+15:01:33.258 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+15:01:33.258 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+15:01:33.259 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+15:01:33.259 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:01:33.259 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:01:33.259 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:01:33.269 debug: Target(preview) ends with cost 97.27670000004582ms.
+15:03:16.529 debug: Dispatch build request for time accumulated 1 asset changes.
+15:03:16.531 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:03:16.531 debug: Target(editor) build started.
+15:03:16.534 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:25:38 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:27:21 GMT+0800 (中国标准时间)
+15:03:16.534 debug: Inspect cce:/internal/x/prerequisite-imports
+15:03:16.551 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 16.10 ms
+15:03:16.554 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+15:03:16.555 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+15:03:16.555 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:03:16.556 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:03:16.557 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:03:16.558 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:03:16.559 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+15:03:16.559 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+15:03:16.560 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+15:03:16.560 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts. Last mtime: Thu Mar 06 2025 15:01:30 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f, Current mtime: Thu Mar 06 2025 15:03:14 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f
+15:03:16.560 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts
+15:03:16.642 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts' costs: 82.40 ms
+15:03:16.644 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+15:03:16.645 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+15:03:16.645 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+15:03:16.646 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:03:16.646 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:03:16.646 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:03:16.656 debug: Target(editor) ends with cost 124.94860000000335ms.
+15:03:16.657 debug: Target(preview) build started.
+15:03:16.659 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:25:38 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:27:21 GMT+0800 (中国标准时间)
+15:03:16.659 debug: Inspect cce:/internal/x/prerequisite-imports
+15:03:16.672 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 13.20 ms
+15:03:16.674 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+15:03:16.675 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+15:03:16.676 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:03:16.676 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:03:16.677 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:03:16.677 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:03:16.678 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+15:03:16.678 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+15:03:16.679 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+15:03:16.679 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts. Last mtime: Thu Mar 06 2025 15:01:30 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f, Current mtime: Thu Mar 06 2025 15:03:14 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f
+15:03:16.679 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts
+15:03:16.754 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts' costs: 75.10 ms
+15:03:16.756 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+15:03:16.757 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+15:03:16.757 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+15:03:16.759 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:03:16.759 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:03:16.759 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:03:16.782 debug: Target(preview) ends with cost 125.69120000000112ms.
+15:06:15.404 debug: Dispatch build request for time accumulated 1 asset changes.
+15:06:15.406 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:06:15.408 debug: Target(editor) build started.
+15:06:15.412 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:27:21 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:30:20 GMT+0800 (中国标准时间)
+15:06:15.412 debug: Inspect cce:/internal/x/prerequisite-imports
+15:06:15.436 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 23.50 ms
+15:06:15.438 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+15:06:15.439 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+15:06:15.440 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:06:15.441 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:06:15.441 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:06:15.442 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:06:15.442 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+15:06:15.443 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+15:06:15.443 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+15:06:15.444 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts. Last mtime: Thu Mar 06 2025 15:03:14 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f, Current mtime: Thu Mar 06 2025 15:06:13 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f
+15:06:15.444 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts
+15:06:15.539 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts' costs: 95.60 ms
+15:06:15.542 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+15:06:15.542 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+15:06:15.543 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+15:06:15.543 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:06:15.543 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:06:15.543 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:06:15.553 debug: Target(editor) ends with cost 145.05899999989197ms.
+15:06:15.553 debug: Target(preview) build started.
+15:06:15.555 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:27:21 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:30:20 GMT+0800 (中国标准时间)
+15:06:15.555 debug: Inspect cce:/internal/x/prerequisite-imports
+15:06:15.571 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 16.20 ms
+15:06:15.575 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+15:06:15.576 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+15:06:15.577 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+15:06:15.578 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+15:06:15.579 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+15:06:15.580 debug: Resolve file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:06:15.580 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Bullet.ts.
+15:06:15.581 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/CameraController.ts.
+15:06:15.583 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts.
+15:06:15.584 debug: Detected change: file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts. Last mtime: Thu Mar 06 2025 15:03:14 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f, Current mtime: Thu Mar 06 2025 15:06:13 GMT+0800 (中国标准时间)@8c1dbcc8-454b-40d7-863a-2d7bc4b3041f
+15:06:15.584 debug: Inspect file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts
+15:06:15.658 debug: transform url: 'file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts' costs: 74.60 ms
+15:06:15.660 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/GameManager.ts.
+15:06:15.661 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/HitEffect.ts.
+15:06:15.661 debug: Resolve file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/PlayerController.ts.
+15:06:15.662 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:06:15.662 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:06:15.662 debug: Resolve cc from file:///G:/Cocos/KillGrass/PlayableMowGame/PlayableMowGame/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+15:06:15.672 debug: Target(preview) ends with cost 118.88459999999031ms.

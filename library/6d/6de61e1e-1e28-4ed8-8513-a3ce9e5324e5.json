@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "goods",
+    "spriteFrames": [
+      "1",
+      "6de61e1e-1e28-4ed8-8513-a3ce9e5324e5@c30fb",
+      "2",
+      "6de61e1e-1e28-4ed8-8513-a3ce9e5324e5@c86cc",
+      "jiansuguangquan",
+      "6de61e1e-1e28-4ed8-8513-a3ce9e5324e5@b0a1d",
+      "relive",
+      "6de61e1e-1e28-4ed8-8513-a3ce9e5324e5@4a869",
+      "shu1",
+      "6de61e1e-1e28-4ed8-8513-a3ce9e5324e5@5e2cc",
+      "shu2",
+      "6de61e1e-1e28-4ed8-8513-a3ce9e5324e5@b6495",
+      "warning",
+      "6de61e1e-1e28-4ed8-8513-a3ce9e5324e5@7f98d"
+    ]
+  }
+}

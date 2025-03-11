@@ -1,0 +1,19 @@
+{
+  "path": {
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\goods.plist": [
+      "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\goods.png"
+    ],
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\player.plist": [
+      "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\player\\player.png"
+    ],
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\bullet\\bulletList.plist": [
+      "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\bullet\\bulletList.png"
+    ],
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\enemy\\monList.plist": [
+      "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\enemy\\monList.png"
+    ],
+    "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect\\hitEffect.plist": [
+      "G:\\Cocos\\KillGrass\\PlayableMowGame\\PlayableMowGame\\assets\\texture\\hiteffect\\hitEffect.png"
+    ]
+  }
+}
